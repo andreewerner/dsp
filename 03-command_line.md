@@ -39,13 +39,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What do the following commands do:  
 >>
-`ls`  lists all files and directories in working directory
-`ls -a` lists all contents of working directory, including hidden files and directories 
-`ls -l`  lists out all contents of directory in long format
-`ls -lh`  lists out all contents of directory in long format but with file sizes in human readable format
-`ls -lah`  lists out all contents of directory, including hidden files and directories, in long fromat but with file sizes in human readable format  
-`ls -t`  orders files and directories by the time they were modified last
-`ls -Glp`  lists all contents of directory in long format with directories displayed with a `/` and different color fonts
+`ls`  lists all files and directories in working directory  
+`ls -a` lists all contents of working directory, including hidden files and directories  
+`ls -l`  lists out all contents of directory in long format  
+`ls -lh`  lists out all contents of directory in long format but with file sizes in human readable format  
+`ls -lah`  lists out all contents of directory, including hidden files and directories, in long format but with file sizes in human readable format    
+`ls -t`  orders files and directories by the time they were modified last  
+`ls -Glp`  lists all contents of directory in long format with directories displayed with a `/` and different color fonts  
 
 
 ---
@@ -57,8 +57,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 >>
 `ls -R` lists all subdirectories in addition  
 `ls -1` lists each entry on a  line  
-`ls -u` lists files by the time the file was accessed
-`ls -d` lists only the directories
+`ls -u` lists files by the time the file was accessd  
+`ls -d` lists only the directories  
 `ls -C` lists files in a column format
 
 ---
@@ -67,7 +67,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > `xargs` is a command that converts standard input to arguments, especially for tools that cannot accept standard input as parameters like `echo` `rm` `mkdir` etc. Example: `echo 'I am enjoying this Metis pre-work' | xargs mkdir ls`
+> > `xargs` is a command that converts standard input to arguments, especially for tools that cannot accept standard input as parameters like `echo` `rm` `mkdir` etc.  
+Example: `echo 'I am enjoying this Metis pre-work' | xargs mkdir ls`
 
 
  
