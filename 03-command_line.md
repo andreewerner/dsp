@@ -20,22 +20,33 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>>** Andrée's Cheat Sheet for Command Line**
+* print working directory - `pwd`
+* create directory - `mkdir`
+* delete directory - `rmdir`  
+* create file using `touch` command -`touch [filename]` 
+* deleting a file - `rm`  
+* rename file - `mv [filename] [new filename]`
+* list hidden files - `ls -a`
+* copy file from directory to another - `cp [source][destination]`    
+* get information about white type of file or directory it is - `file`
+* move to a different directory -`cd`
+* list contents of directory - `ls`
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+>>
+`ls`  lists all files and directories in working directory
+`ls -a` lists all contents of working directory, including hidden files and directories 
+`ls -l`  lists out all contents of directory in long format
+`ls -lh`  lists out all contents of directory in long format but with file sizes in human readable format
+`ls -lah`  lists out all contents of directory, including hidden files and directories, in long fromat but with file sizes in human readable format  
+`ls -t`  orders files and directories by the time they were modified last
+`ls -Glp`  lists all contents of directory in long format with directories displayed with a `/` and different color fonts
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -43,7 +54,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>>
+`ls -R` lists all subdirectories in addition
+`ls -1` lists each entry on a  line
+`ls -u` lists files by the time the file was accessed
+`ls -d` lists only the directories
+`ls -C` lists files in a column format
 
 ---
 
@@ -51,7 +67,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` is a command that converts standard input to arguments, especially for tools that cannot accept standard input as parameters like `echo` `rm` `mkdir` etc. Example: `echo 'I am enjoying this Metis pre-work' | xargs mkdir ls`
+
 
  
 
