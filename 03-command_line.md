@@ -28,7 +28,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 * deleting a file - `rm`  
 * rename file - `mv <filename> <new filename>`
 * list hidden files - `ls -a`
-* copy file from directory to another - `cp <source><destination>`    
+* copy file from directory to another - `cp <source> <destination>`    
 * get information about white type of file or directory it is - `file`
 * move to a different directory -`cd`
 * list contents of directory - `ls`
