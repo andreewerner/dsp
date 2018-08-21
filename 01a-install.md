@@ -51,7 +51,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
->> I installed Python 3 because HackerRank Python prework is comfigure for Python 3 only
+>> I installed Python 3 because HackerRank Python prework is configured for Python 3 only
 
 ### Q2. Which Python Version Installed   
 
