@@ -55,7 +55,7 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 >>
-`ls -R` lists all subdirectories in addition  
+`ls -R` lists all subdirectories  
 `ls -1` lists each entry on a  line  
 `ls -u` lists files by the time the file was accessd  
 `ls -d` lists only the directories  
